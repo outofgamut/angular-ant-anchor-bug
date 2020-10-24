@@ -1,0 +1,27 @@
+<div nz-row>
+  <div nz-col nzFlex="2">
+    <section id="section-1">
+      <h1>Section 1</h1>
+    </section>
+    <section id="section-2">
+      <h1>Section 2</h1>
+    </section>
+    <section id="section-3">
+      <h1>Section 3</h1>
+      <section id="section-3-1">
+        <h1>Section 3.1</h1>
+      </section>
+      <section id="section-3-2">
+        <h1>Section 3.2</h1>
+      </section>
+    </section>
+  </div>
+  <nz-anchor nz-col nzFlex="1" [nzAffix]="false">
+    <nz-link nzHref="#section-1" nzTitle="Section 1"></nz-link>
+    <nz-link nzHref="#section-2" nzTitle="Section 2"></nz-link>
+    <nz-link nzHref="#section-3" nzTitle="Section 3">
+      <nz-link nzHref="#section-3-1" nzTitle="3.1"></nz-link>
+      <nz-link nzHref="#section-3-2" nzTitle="3.2"></nz-link>
+    </nz-link>
+  </nz-anchor>
+</div>
